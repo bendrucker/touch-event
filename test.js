@@ -10,7 +10,7 @@ test(function (t) {
   t.plan(1)
 
   var render = thermometer.createComponent(Component)
-  render({onMove: onMove}, function (state, element, done) {
+  render({ onMove: onMove }, function (state, element, done) {
     dispatchEvent(element, 'touchmove', {
       // use an array-like object to simulate a browser
       touches: {
@@ -29,7 +29,7 @@ test(function (t) {
       foo: 'bar',
       touches: [
         {
-          client: {x: 10, y: 20}
+          client: { x: 10, y: 20 }
         }
       ]
     })

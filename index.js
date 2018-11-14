@@ -21,7 +21,7 @@ events.forEach(function (event) {
 })
 
 function handleTouch (event, broadcast) {
-  var data = extend({touches: list(event._rawEvent.touches)}, this.data)
+  var data = extend({ touches: list(event._rawEvent.touches) }, this.data)
   broadcast(data)
 }
 
@@ -33,7 +33,7 @@ function formatTouch (touch) {
   touch = extend(touch)
   delete touch.target
 
-  return nest(mapKeys(touch, function (key) {
+  return nest(mapKeys(touch, function (value, key) {
     return split(key).join('.').toLowerCase()
   }))
 }

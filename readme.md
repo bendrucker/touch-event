@@ -1,4 +1,4 @@
-# touch-event [![Build Status](https://travis-ci.org/bendrucker/touch-event.svg?branch=master)](https://travis-ci.org/bendrucker/touch-event)
+# touch-event [![Build Status](https://travis-ci.org/bendrucker/touch-event.svg?branch=master)](https://travis-ci.org/bendrucker/touch-event) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/touch-event.svg)](https://greenkeeper.io/)
 
 > Touch events for value-event
 
